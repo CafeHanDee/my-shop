@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.overlay.com)",
+      "Read(//usr/**)",
+      "Bash(ls /c/Python*/python.exe)",
+      "Read(//c/Users/user/AppData/Local/Programs/**)",
+      "Bash(command -v node)",
+      "Bash(node -e \"const {createCanvas, loadImage} = require\\('canvas'\\); console.log\\('canvas OK'\\)\")",
+      "Bash(node -e \"require\\('sharp'\\); console.log\\('sharp OK'\\)\")",
+      "Bash(npm install:*)",
+      "Bash(node:*)",
+      "Bash(start:*)",
+      "Bash(git -C \"/c/Users/user/Projects/test\" status)",
+      "Bash(git -C \"/c/Users/user/Projects/test\" remote -v)",
+      "Bash(git config *)",
+      "Bash(gh auth *)",
+      "Bash(where git *)",
+      "Bash(git --version)",
+      "Bash(git init *)",
+      "Bash(echo \"node_modules/\")",
+      "Bash(gh repo *)"
+    ]
+  }
+}
