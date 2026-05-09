@@ -19,7 +19,10 @@
       "Bash(git --version)",
       "Bash(git init *)",
       "Bash(echo \"node_modules/\")",
-      "Bash(gh repo *)"
+      "Bash(gh repo *)",
+      "Bash(vercel *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
